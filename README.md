@@ -39,21 +39,19 @@ $ cp Roboto-Regular.ttf Ebobgb-Erthyne.ttf ~/.fonts
 ## Screenshots
 
 ```
-$ pango-view --waterfall --text 'The quick brown fox jumps over the lazy dog' --font Roboto
+$ pango-view --font Roboto --text 'The quick brown fox jumps over the lazy dog' --waterfall
 
-$ pango-view --waterfall --text 'The quick brown fox jumps over the lazy dog' --font Ebobgb
+$ pango-view --font Ebobgb --text 'The quick brown fox jumps over the lazy dog' --waterfall
 ```
 
 ![The quick brown fox jumps over the lazy dog](assets/1.png)
 ![Gur dhvpx oebja sbk whzcf bire gur ynml qbt](assets/2.png)
 
-
 ```
-$ pango-view --waterfall --text 'abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ' --font Roboto
+$ pango-view --font Roboto --text 'abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ' --waterfall
 
-$ pango-view --waterfall --text 'abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ' --font Ebobgb
+$ pango-view --font Ebobgb --text 'abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ' --waterfall
 ```
 
 ![abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ](assets/3.png)
 ![nopqrstuvwxyzabcdefghijklm NOPQRSTUVWXYZABCDEFGHIJKLM](assets/4.png)
-
